@@ -1,18 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Namora Comigo?</title>
     <script src="scrip.js"></script>
-    <link rel="stylesheet" href="estilo.css">
-</head>
+    <link rel="stylesheet" href="estilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
+  <body>
     <div id="conteudo">
-    <h2> Aceita namorar comigo?</h2>
-    <button class="btn" onclick="sim()">SIM</button>
-    <button class= "btn" onclick="desvia(this)" onmouseover="desvia(this)">NÃO</button>
+      <h2 class="title-aceita-namorar-comigo">Aceita namorar comigo?</h2>
+
+      <div class="content">
+        <div class="imagem">
+          <img
+          src="https://img1.picmix.com/output/pic/normal/7/9/8/7/9707897_c96c1.gif"
+          alt"Imagem de GIF">
+        </div>
+        <div class="bottom-container">
+          <button class="btn" onclick="sim()">SIM</button>
+          <button class="btn" onclick="desvia(this)" onmouseover="desvia(this)">
+            NÃO
+          </button>
+        </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

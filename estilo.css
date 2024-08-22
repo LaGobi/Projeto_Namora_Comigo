@@ -1,19 +1,69 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden; 
+}
+
 #conteudo {
-    background: #c28ae5;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 300%;
+    background: #c764a1;
+    width: 100vw; 
+    height: 100vh; 
+    padding: 50px;
     text-align: center;
-    font-family: sans-serif;
-    }
-    
-    .btn {
-    background: white;
-    color: black;         
+    font-family: 'Indie Flower', cursive;
+    z-index: 1;
+    box-sizing: border-box; 
+    justify-content: center; 
+    align-items: center; 
+}
+
+.btn {    
+    z-index: 2;              
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;    
+    font-size: xx-large;
+    background: rgb(134, 0, 56);
+    color: rgb(255, 255, 255);         
     padding: 10px;
-    width: 80px;
-    border-radius: 10px;
-    }
+    width: 85px;
+    border-radius: 58px;
+    border: 2px solid #ffffff;
+    cursor: pointer; 
+    margin: 0 10px; 
+}
+
+.title-aceita-namorar-comigo {
+    margin: 25px; 
+    color: aqua;
+}
+
+.imagem {
+    z-index: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+.imagem img {
+    border: 3px solid rgb(255, 255, 255); 
+    height: auto; 
+}
+
+.content {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    z-index: 1; 
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 20px; 
+}

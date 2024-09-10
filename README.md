@@ -18,17 +18,3 @@ Essa é uma página web simples e divertida criada com HTML, CSS e JavaScript. O
 * **HTML:** Estrutura da página.
 * **CSS:** Estilização da página.
 * **JavaScript:** Interatividade dos botões.
-
-**Como usar:**
-
-1. **Clone o repositório:** Use um cliente Git para clonar este repositório para sua máquina local.
-2. **Abra os arquivos:** Abra os arquivos `index.html`, `style.css` e `script.js` em um editor de código.
-3. **Visualize:** Abra o arquivo `index.html` em um navegador web.
-
-**Personalização:**
-
-* **Mensagem:** Altere o texto dentro da tag `h2` para personalizar a mensagem.
-* **Imagem:** Substitua a URL da imagem no elemento `img` por uma imagem de sua preferência.
-* **Estilos:** Modifique o arquivo `style.css` para alterar as cores, fontes e layout da página.
-* **Comportamento:** Edite o arquivo `script.js` para mudar a forma como os botões funcionam.
-
